@@ -11,6 +11,7 @@
 		619767CA2A9ED9D8008A89CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619767C92A9ED9D8008A89CA /* ContentView.swift */; };
 		619767CC2A9ED9DB008A89CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619767CB2A9ED9DB008A89CA /* Assets.xcassets */; };
 		619767CF2A9ED9DB008A89CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619767CE2A9ED9DB008A89CA /* Preview Assets.xcassets */; };
+		619767E02A9EDCCF008A89CA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619767DF2A9EDCCF008A89CA /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		619767C92A9ED9D8008A89CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		619767CB2A9ED9DB008A89CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		619767CE2A9ED9DB008A89CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		619767DF2A9EDCCF008A89CA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,11 @@
 		619767C62A9ED9D8008A89CA /* SwiftCoinProject */ = {
 			isa = PBXGroup;
 			children = (
-				619767C72A9ED9D8008A89CA /* SwiftCoinProjectApp.swift */,
+				619767DB2A9EDB8B008A89CA /* Utils */,
+				619767DA2A9EDB82008A89CA /* Extensions */,
+				619767D82A9EDB69008A89CA /* Models */,
+				619767D62A9EDB5C008A89CA /* Core */,
+				619767D52A9EDB53008A89CA /* App */,
 				619767C92A9ED9D8008A89CA /* ContentView.swift */,
 				619767CB2A9ED9DB008A89CA /* Assets.xcassets */,
 				619767CD2A9ED9DB008A89CA /* Preview Content */,
@@ -65,6 +71,67 @@
 				619767CE2A9ED9DB008A89CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		619767D52A9EDB53008A89CA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				619767C72A9ED9D8008A89CA /* SwiftCoinProjectApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		619767D62A9EDB5C008A89CA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				619767D72A9EDB61008A89CA /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		619767D72A9EDB61008A89CA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				619767DE2A9EDC51008A89CA /* Views */,
+				619767DC2A9EDC3C008A89CA /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		619767D82A9EDB69008A89CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		619767DA2A9EDB82008A89CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		619767DB2A9EDB8B008A89CA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		619767DC2A9EDC3C008A89CA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		619767DE2A9EDC51008A89CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				619767DF2A9EDCCF008A89CA /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619767E02A9EDCCF008A89CA /* HomeView.swift in Sources */,
 				619767CA2A9ED9D8008A89CA /* ContentView.swift in Sources */,
 				619767C82A9ED9D8008A89CA /* SwiftCoinProjectApp.swift in Sources */,
 			);
